@@ -1,7 +1,7 @@
-import PomodoroComponent from "@/components/pomodroTimer";
+import ExpenseTracker from "@/components/ExpenseTracker";
 
 export default function Home() {
-  return (
-  <div><PomodoroComponent/></div>
+  return (<div>
+  <ExpenseTracker/></div>
   );
 }
