@@ -41,9 +41,13 @@ export default function MovieSearch() {
         throw new Error(data.Error);
       }
       setMovieDetails(data);
-    } catch (error: any) {
-      setError(error.message);
-    } finally {
+    } catch (error) {
+  if (error instanceof Error) {
+    setError(error.message);
+  } else {
+    setError('An unknown error occurred');
+  }
+} finally {
       setLoading(false);
     }
   };
