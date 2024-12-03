@@ -1,7 +1,8 @@
-import ExpenseTracker from "@/components/ExpenseTracker";
+import MovieSearch from "@/components/movie-search";
 
 export default function Home() {
   return (<div>
-  <ExpenseTracker/></div>
+  <MovieSearch/>
+  </div>
   );
 }
