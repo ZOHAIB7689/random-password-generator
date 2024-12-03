@@ -4,7 +4,6 @@ import { useState, ChangeEvent } from 'react';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
 import { CalendarIcon, StarIcon } from 'lucide-react';
-import Image from 'next/image';
 import { Spinner } from './ui/spinner';
 
 export default function MovieSearch() {
