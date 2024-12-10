@@ -1,8 +1,7 @@
-import MovieSearch from "@/components/movie-search";
+import RandomPassword from "@/components/component";
 
 export default function Home() {
   return (<div>
-  <MovieSearch/>
-  </div>
+<RandomPassword/>  </div>
   );
 }
